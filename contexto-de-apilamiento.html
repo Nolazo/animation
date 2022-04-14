@@ -28,7 +28,6 @@
       z-index: 1;
       height: 450px;
       width: 80px;
-      background: white;
       bottom: 0;
       right: 60px;
     }
@@ -110,8 +109,24 @@
       position: absolute;
       z-index: 10;
     }
-
-    /* OREJA IZQUIERDA */
+    /* CUERNITOS */
+    .left-ear--outer{
+      background: red;
+      border-radius: 100%;
+      width: 13px;
+      height: 50px;
+      position: absolute;
+      left: 10px;
+    }
+    .right-ear--outer{
+      background: red;
+      border-radius: 100%;
+      width: 13px;
+      height: 50px;
+      position: absolute;
+      right: 10px;
+    }
+    /* OREJA IZQUIERDA
     .left-ear--outer{
       background: black;
       border-radius: 90%;
@@ -128,30 +143,29 @@
       position: absolute;
       left: 15px;
       top: 8px;
-    }
-
+    } */
     /* OREJA DERECHA */
-    .right-ear--outer{
+   /* .left-ear--outer{
       background: black;
       border-radius: 90%;
       width: 20px;
       height: 50px;
       position: absolute;
-      right: 10px;
-    }
-    .right-ear--inner{
-      background: pink;
-      border-radius: 90%;
-      width: 10px;
+      left: 10px;
+    } */
+    /* .right-ear--inner{
+      background: red;
+      border-radius: 50%;
+      width: 6px;
       height: 50px;
       position: absolute;
       right: 15px;
       top: 8px;
-    }
+    } */
 
     /* CABECITA */
     .head{
-      background: black;
+      background: white;
       border-radius: 50%;
       height: 80px;
       left: 0;
@@ -160,6 +174,22 @@
       position: absolute;
       top: 30px;
       width: 100%;
+    }
+
+    /* OJITOS */
+    .head__eye{
+      background: gray;
+      border-radius: 50%;
+      height: 4px;
+      width: 4px;
+      position: absolute;
+      top: 15px;
+    }
+    .head__eye--left{
+      left: 20px;
+    }
+    .head__eye--right{
+      right: 20px;
     }
   </style>
 </head>
